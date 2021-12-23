@@ -1,0 +1,9 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+
+<app-child [name]="userName" (ChildData)="MessageFromChild($event)"> 
+
+
+</app-child>
+<hr>
+{{childMsg}}
